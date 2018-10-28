@@ -33,7 +33,7 @@ client.on('ready', () => {
   client.on('ready', async () => {
       let ToRnEdO  = ["is","this","spam"]
   setInterval(() => {
-client.channels.get("506147663264350209").send(`${ToRnEdO [Math.floor(Math.random() *ToRnEdO .length)]}`)
+client.channels.get("506147653248221204").send(`${ToRnEdO [Math.floor(Math.random() *ToRnEdO .length)]}`)
 },500);
 });
   
@@ -78,7 +78,7 @@ message.channel.send(args.join("  "))
 
 
 client.on('message', message => {
-    if(message.content === '2amount'){
+    if(message.content === '1amount'){
         message.channel.send('#credits')
     }
 });
